@@ -33,7 +33,8 @@
 */
 
 // CODE HERE
-
+let speed = 25;
+console.log(speed);
 
 
 
@@ -51,10 +52,13 @@
 
     Hint: in your terminal, make sure you're in the
     directory where this file is saved. Use node to
-    run the file with this command: `node index.js`.
+    run the file with this command: `node coding-skills-lab.js`.
 */
 
 // CODE HERE
+
+speed = 500;
+console.log(`upgraded speed: ${speed}`);
 
 
 
@@ -77,8 +81,7 @@
 
 // CODE HERE
 
-
-
+let faveSnack = 'Lays Wavy';
 
 
 
@@ -96,7 +99,7 @@
 
 // CODE HERE
 
-
+let faveDrink = 'CoCa Cola';
 
 
 
@@ -116,8 +119,7 @@
 
 // CODE HERE
 
-
-
+const private = true;
 
 
 
@@ -148,6 +150,11 @@
 
 // CODE HERE
 
+let Netflix = 15;
+let Hulu = 7;
+let DisneyPlus = 5;
+let YouTubePremium = 10;
+let Peacock = 10;
 
 
 
@@ -166,6 +173,9 @@
 
 // CODE HERE
 
+let total =  Netflix + Hulu + DisneyPlus + YouTubePremium + Peacock;
+
+console.log(`total: ${total}`);
 
 
 
@@ -190,6 +200,10 @@
 
 // CODE HERE
 
+Hulu = 0;
+Peacock -= 5;
+Netflix -= 8;
+
 
 
 
@@ -207,6 +221,10 @@
 */
 
 // CODE HERE
+
+let newTotal = Netflix + Hulu + DisneyPlus + YouTubePremium + Peacock;
+
+console.log(`New Total: ${newTotal}`);
 
 
 
@@ -263,6 +281,9 @@
 */
 
 // CODE HERE
+
+let saving = total - newTotal;
+console.log(`Saving: ${saving}%  `)
 
 
 
